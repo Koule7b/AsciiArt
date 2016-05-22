@@ -103,10 +103,139 @@ void vykresleniHrad(int vyska) {
         }
     }
 }
+
+void vypisANavrhVsechMistnosti()
+{
+    cout <<
+    "    _ _ _ _ _   \n"
+            "   |         |  \n"
+            "   |         |_ \n"
+            "   |          _ \n"
+            "   |         |  \n"
+            "   |_ _ _ _ _|  \n"
+            "                \n"
+            "                \n"
+    << endl;
+    cout <<
+    "    _ _| |_ _   \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |_ _ _ _ _|  \n"
+            "                \n"
+            "                \n"
+
+    << endl;
+    cout <<
+    "    _ _ _ _ _   \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |_ _   _ _|  \n"
+            "       | |      \n"
+            "       | |      \n"
+
+    << endl;
+    string mistnnost1 =     "    _ _ _ _ _   \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |_ _   _ _|  \n"
+            "       | |      \n"
+            "       | |      \n";
+    string mistnnost2 =     "    _ _| |_ _   \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |_ _ _ _ _|  \n"
+            "                \n"
+            "                \n";
+
+    cout <<
+    "    _ _| |_ _   \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |_ _   _ _|  \n"
+            "       | |      \n"
+            "       | |      \n"
+    << endl;
+    cout << mistnnost1 << mistnnost2;
+    cout <<
+    "    _ _ _ _ _   \n"
+            "   |         |  \n"
+            "_ _|         |  \n"
+            "_ _          |  \n"
+            "   |         |  \n"
+            "   |_ _ _ _ _|  \n"
+            "                \n"
+            "                \n"
+    << endl;
+    cout <<
+    "    _ _ _ _ _   \n"
+            "   |         |  \n"
+            "_ _|         |_ \n"
+            "_ _           _ \n"
+            "   |         |  \n"
+            "   |_ _ _ _ _|  \n"
+            "                \n"
+            "                \n"
+    << endl;
+    cout <<
+    "    _ _ _ _ _   \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |    x    |  \n"
+            "   |         |  \n"
+            "   |_ _   _ _|  \n"
+            "       | |      \n"
+            "       | |      \n"
+    << endl;
+    cout <<
+    "    _ _ _ _ _   \n"
+            "   |         |  \n"
+            "   |         |_ \n"
+            "   |    x     _ \n"
+            "   |         |  \n"
+            "   |_ _ _ _ _|  \n"
+            "                \n"
+            "                \n"
+    << endl;
+    cout <<
+    "    _ _| |_ _   \n"
+            "   |         |  \n"
+            "   |         |  \n"
+            "   |    x    |  \n"
+            "   |         |  \n"
+            "   |_ _ _ _ _|  \n"
+            "                \n"
+            "                \n"
+
+    << endl;
+    cout <<
+    "    _ _ _ _ _   \n"
+            "   |         |  \n"
+            "_ _|         |  \n"
+            "_ _     x    |  \n"
+            "   |         |  \n"
+            "   |_ _ _ _ _|  \n"
+            "                \n"
+            "                \n"
+    << endl;
+}
 int main() {
     cout << "Hello, World!" << endl;
     vykresMece();
     vykresVeze();
-    vykresleniHrad(9);
+    vykresleniHrad(17);
+    vypisANavrhVsechMistnosti();
+
+    string slovo;
+    cin >> slovo;
     return 0;
 }
